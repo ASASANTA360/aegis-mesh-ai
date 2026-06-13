@@ -1,36 +1,190 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛡 Aegis Mesh AI
 
-## Getting Started
+### Privacy-First Multi-Agent Edge Intelligence Powered by QVAC SDK
 
-First, run the development server:
+Aegis Mesh AI is a next-generation local-first AI platform that brings intelligent assistants, private document analysis, security monitoring, and decentralized AI collaboration directly to consumer devices.
+
+Built for the **QVAC Hackathon by Tether**, Aegis Mesh AI demonstrates how powerful AI systems can operate without depending on centralized cloud AI providers.
+
+---
+
+# ✨ Key Features
+
+## 🧠 Multi-Agent AI System
+
+- Commander Agent for intelligent task orchestration
+- Document Agent for private document workflows
+- Security Agent for phishing and fraud analysis
+- Knowledge Agent for local RAG-based search
+- Mesh Agent for distributed AI workloads
+
+---
+
+## ⚡ QVAC Local AI Runtime
+
+- QVAC SDK integration layer
+- Psy local model support
+- On-device AI inference
+- No cloud AI dependency
+- Performance tracking (TPS & TTFT)
+
+---
+
+## 🌐 Mesh Intelligence
+
+Aegis Mesh AI enables decentralized AI workflows across trusted devices:
+
+- 💻 Laptop
+- 📱 Mobile devices
+- 🍓 Raspberry Pi edge nodes
+
+Supporting private and distributed AI execution.
+
+---
+
+# 📊 Evidence & Performance
+
+The platform includes an auditable evidence system:
+
+- Live QVAC metrics dashboard
+- Inference history
+- JSON log export
+- Model usage tracking
+- Performance measurement
+
+---
+
+# 🏗 System Architecture
+
+```
+User
+ |
+ v
+Aegis Dashboard
+ |
+ v
+Aegis Assistant
+ |
+ v
+Commander Agent
+ |
+ +------------+
+ |            |
+ v            v
+Document   Security
+Agent      Agent
+ |
+ v
+Knowledge Agent
+ |
+ v
+Mesh Agent
+ |
+ v
+QVAC SDK
+ |
+ v
+Psy Models
+ |
+ v
+Local Inference
+ |
+ v
+Performance Logs
+```
+
+---
+
+# 💻 Technology Stack
+
+Frontend:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+AI Layer:
+- QVAC SDK
+- Psy Models
+
+Architecture:
+- Multi-Agent System
+- Local RAG
+- Edge AI
+- P2P Mesh Inference
+
+---
+
+# 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/asasanta360/aegis-mesh-ai.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🔐 Privacy Principles
 
-To learn more about Next.js, take a look at the following resources:
+Aegis Mesh AI follows a strict local-first philosophy:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- No external AI APIs
+- No cloud AI dependency
+- Private on-device processing
+- Transparent inference evidence
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 📁 Documentation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Additional documents are available in `/docs`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- API_DISCLOSURE.json
+- HARDWARE.md
+- ARCHITECTURE.md
+- DEMO_SCRIPT.md
+
+---
+
+# 🎥 Demo
+
+The demo showcases:
+
+- Multi-agent orchestration
+- QVAC local inference
+- Mesh AI collaboration
+- Performance metrics
+- Evidence export
+
+---
+
+# 📜 License
+
+Apache 2.0 License
+
+---
+
+# 👨‍💻 Developer
+
+**ASASANTA360**
+
+Built with a vision of making AI private, decentralized, and accessible to everyone.

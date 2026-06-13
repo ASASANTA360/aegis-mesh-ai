@@ -1,0 +1,18 @@
+{
+  "project": "Aegis Mesh AI",
+  "version": "1.4",
+  "remote_api_calls": [],
+  "local_ai_runtime": {
+    "provider": "QVAC SDK",
+    "models": [
+      "Psy local models"
+    ],
+    "inference": "Fully local on-device",
+    "cloud_dependency": false
+  },
+  "privacy": {
+    "data_leaves_device": false,
+    "p2p_mesh": true,
+    "encrypted_local_processing": true
+  }
+}
