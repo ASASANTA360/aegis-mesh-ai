@@ -6,13 +6,12 @@ import MeshNetwork from "@/components/MeshNetwork";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-br from-black via-gray-950 to-indigo-950 text-white flex overflow-hidden">
-
+   <div className="min-h-screen bg-gradient-to-br from-black via-gray-950 to-indigo-950 text-white flex">
       {/* Sidebar */}
       <Sidebar />
 
       {/* Main Dashboard */}
-     <main className="flex-1 flex flex-col overflow-y-auto">
+      <main className="flex flex-1 flex-col overflow-y-auto">
 
         {/* Top Navigation */}
         <header className="

@@ -39,12 +39,15 @@ export default function AgentStatus() {
   return (
     <section
       className="
-        w-80
-        h-full
-        overflow-y-auto
+        w-full
+        lg:w-80
+        h-fit
         bg-white/5
         backdrop-blur-xl
         p-5
+        rounded-3xl
+        border
+        border-white/10
       "
     >
       {/* Header */}
@@ -58,8 +61,10 @@ export default function AgentStatus() {
         </p>
       </div>
 
+
       {/* Agent List */}
-      <div className="space-y-4 pb-6">
+      <div className="space-y-4">
+
         {agents.map((agent) => {
           const Icon = agent.icon;
 
@@ -78,10 +83,13 @@ export default function AgentStatus() {
                 duration-300
               "
             >
+
               {/* Top */}
               <div className="flex justify-between items-center">
+
                 <div className="flex items-center gap-3">
-                  
+
+                  {/* Icon */}
                   <div
                     className="
                       w-10
@@ -99,6 +107,8 @@ export default function AgentStatus() {
                     />
                   </div>
 
+
+                  {/* Agent Info */}
                   <div>
                     <h3 className="text-white font-semibold">
                       {agent.name}
@@ -108,10 +118,13 @@ export default function AgentStatus() {
                       {agent.description}
                     </p>
                   </div>
+
                 </div>
+
 
                 {/* Status */}
                 <div className="flex items-center gap-2">
+
                   <div
                     className="
                       w-2
@@ -125,13 +138,17 @@ export default function AgentStatus() {
                   <span className="text-green-400 text-xs">
                     {agent.status}
                   </span>
+
                 </div>
+
               </div>
 
+
               {/* Metrics */}
-              <div className="mt-4 flex justify-between text-sm">
+              <div className="mt-4 flex justify-between">
+
                 <div>
-                  <p className="text-gray-500">
+                  <p className="text-gray-500 text-sm">
                     Health
                   </p>
 
@@ -140,8 +157,9 @@ export default function AgentStatus() {
                   </p>
                 </div>
 
+
                 <div>
-                  <p className="text-gray-500">
+                  <p className="text-gray-500 text-sm">
                     Latency
                   </p>
 
@@ -149,26 +167,40 @@ export default function AgentStatus() {
                     {agent.latency}
                   </p>
                 </div>
+
               </div>
+
 
               {/* Health Bar */}
               <div className="mt-3">
-                <div className="w-full h-1 rounded-full bg-white/10">
+
+                <div className="
+                  w-full
+                  h-1
+                  rounded-full
+                  bg-white/10
+                ">
+
                   <div
                     className="
                       h-1
+                      w-[98%]
                       rounded-full
                       bg-green-400
-                      w-[98%]
                     "
                   />
+
                 </div>
+
               </div>
 
             </div>
           );
+
         })}
+
       </div>
+
     </section>
   );
 }
