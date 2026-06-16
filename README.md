@@ -1,5 +1,22 @@
 # 🛡 Aegis Mesh AI
 
+
+<p align="center">
+
+![AI](https://img.shields.io/badge/AI-Multi_Agent-orange)
+![QVAC](https://img.shields.io/badge/QVAC-SDK-purple)
+![Edge AI](https://img.shields.io/badge/Edge-Local_AI-blue)
+![Privacy](https://img.shields.io/badge/Privacy-First-success)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+![Status](https://img.shields.io/badge/Status-QVAC_Hackathon_MVP-green)
+
+</p>
+# 🛡 Aegis Mesh AI
+<p align="center">
+  <img src="./docs/cover.png" width="100%" alt="Aegis Mesh AI Cover">
+</p>
+
 ### Privacy-First Multi-Agent Edge Intelligence Powered by QVAC SDK
 
 Aegis Mesh AI is a next-generation local-first AI platform that brings intelligent assistants, private document analysis, security monitoring, and decentralized AI collaboration directly to consumer devices.
